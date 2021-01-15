@@ -9,14 +9,11 @@ const Nav: React.FC = () => {
       <StyledHeader>
         Community
       </StyledHeader>
+      <Link href="https://discord.gg/qQzctSNppQ" external>
+        Discord
+      </Link>
       <Link href="https://github.com/1Hive" external>
         Github
-      </Link>
-      <Link href="https://discord.gg/qQzctSNppQ" external>
-        Help
-      </Link>
-      <Link href="https://forum.1hive.org/" external>
-        Forum
       </Link>
       <Link href="https://twitter.com/1HiveOrg" external>
         Twitter
@@ -24,13 +21,22 @@ const Nav: React.FC = () => {
       <Link href="https://t.me/honeyswapdex" external>
         Telegram
       </Link>
+      <Link href="https://forum.1hive.org/" external>
+        Forum
+      </Link>
     </div>
     <StyledDivMargin >
       <StyledHeader>
-        Tools
+        Documentation
       </StyledHeader>
       <Link href="https://1hive.gitbook.io/1hive/" external>
         Wiki
+      </Link>
+      <Link href="https://1hive.gitbook.io/1hive/community/security/bug-bounty" external>
+        Bug Bounty
+      </Link>
+      <Link href="https://1hive.gitbook.io/1hive/guides/faq" external>
+        FAQs
       </Link>
     </StyledDivMargin>
     </StyledDiv>
