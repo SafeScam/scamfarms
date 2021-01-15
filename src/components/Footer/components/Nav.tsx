@@ -12,7 +12,7 @@ const Nav: React.FC = () => {
       <Link href="https://github.com/1Hive" external>
         Github
       </Link>
-      <Link href="https://discord.gg/wcNg589r" external>
+      <Link href="https://discord.gg/qQzctSNppQ" external>
         Help
       </Link>
       <Link href="https://forum.1hive.org/" external>
