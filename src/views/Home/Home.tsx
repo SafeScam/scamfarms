@@ -26,7 +26,7 @@ const Home: React.FC = () => {
           margin: '0 auto',
         }}
       >
-        <Button text="Back to Honeyswap" href="https://honeyswap.org/#/swap" variant="default" />
+        <Button text="Back to Honeyswap" href="https://app.honeyswap.org/#/swap" variant="default" />
       </div>
     </Page>
   )
