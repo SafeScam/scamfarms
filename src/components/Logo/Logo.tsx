@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import bee from '../../assets/img/bee.svg'
+import aclogo from '../../assets/img/mmorelightlogo.png'
 
 const Logo: React.FC = () => {
   return (
     <StyledLogo to="/">
-      <img src={bee} alt="Honeycomb" height="32" style={{ marginTop: -4 }} />
+      <img src={aclogo} alt="Adept Camp" height="64" style={{ marginTop: -4 }} />
       <StyledText>
-        Honeycomb
+        Adept Camp
       </StyledText>
     </StyledLogo>
   )

@@ -14881,6 +14881,11 @@ worker-rpc@^0.1.0:
   dependencies:
     microevent.ts "~0.1.1"
 
+wrangler@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/wrangler/-/wrangler-0.0.2.tgz#febad5d77b62dd2c7806a5e437f43868cbe2df61"
+  integrity sha1-/rrV13ti3Sx4BqXkN/Q4aMvi32E=
+
 wrap-ansi@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-2.1.0.tgz#d8fc3d284dd05794fe84973caecdd1cf824fdd85"

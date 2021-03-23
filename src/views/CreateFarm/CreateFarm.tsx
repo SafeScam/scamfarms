@@ -8,7 +8,7 @@ import { useQuery } from '@apollo/client'
 import { honeyswapClient } from '../../apollo/clients'
 import { GET_PAIR } from '../../apollo/queries'
 
-import bee from '../../assets/img/bee.svg'
+import aclogo from '../../assets/img/mmorelightlogo.png'
 
 import PageHeader from '../../components/PageHeader'
 import Button from '../../components/Button'
@@ -72,7 +72,7 @@ const CreateFarm: React.FC = () => {
     return (
       <>
         <PageHeader
-          icon={<img src={bee} height="95" alt="" />}
+          icon={<img src={aclogo} height="95" alt="" />}
           subtitle="The farm has been created. It might take a little while until it shows up on Honeycomb."
           title="Farm Created"
         />
@@ -83,7 +83,7 @@ const CreateFarm: React.FC = () => {
   return (
     <>
       <PageHeader
-        icon={<img src={bee} height="95" alt="" />}
+        icon={<img src={aclogo} height="95" alt="" />}
         subtitle="Create a new farm for a Honeyswap pair"
         title="Create Farm"
       />

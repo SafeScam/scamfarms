@@ -38,10 +38,12 @@ const App: React.FC = () => {
             <Route path="/farms">
               <Farms />
             </Route>
+            
           </Switch>
         </StyledBackground>
       </Router>
     </Providers>
+    
   )
 }
 
