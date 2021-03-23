@@ -52,7 +52,8 @@ export const contractAddresses = {
     100: '0xe91d153e0b41518a2ce8dd3d7944fa863463a97d',
   },
   factory: {
-    100: '0xE29DCD715D11455194D7d74c622F3c42C8a37040'
+   // 100: '0xE29DCD715D11455194D7d74c622F3c42C8a37040'
+      100: '0xdDf1153597F33b63c6F23c9a5dBd178f2575A638'
   }
 }
 
