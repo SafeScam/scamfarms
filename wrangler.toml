@@ -2,7 +2,7 @@ name = "honeycomb"
 type = "webpack"
 account_id = "71660fe173ba27f6f7eda5424c75b95c"
 workers_dev = true
-route = "steak/adept.camp/*"
+route = "steak.adept.camp/*"
 zone_id = ""
 
 [site]
