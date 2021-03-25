@@ -1,9 +1,9 @@
-name = "honeycomb"
+name = "steak"
 type = "webpack"
 account_id = "71660fe173ba27f6f7eda5424c75b95c"
 workers_dev = true
-route = "steak.adept.camp/*"
-zone_id = ""
+route = "https://steak.adept.camp/*"
+zone_id = "81c05c8ccf3d3399dc8dcd71dd1fe476"
 
 [site]
 bucket = "./build"
