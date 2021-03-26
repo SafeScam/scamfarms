@@ -13,7 +13,7 @@ const Home: React.FC = () => {
       <PageHeader
         icon={<img src={aclogo} height={190} alt="ac logo" />}
         title="Earn AC"
-        subtitle="Stake Honeyswap AC/WXDAI LP tokens to earn AC"
+        subtitle="Stake duncan Honeyswap AC/WXDAI LP tokens to earn AC"
       />
 
       <Container>
