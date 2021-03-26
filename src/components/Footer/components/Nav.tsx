@@ -9,19 +9,19 @@ const Nav: React.FC = () => {
       <StyledHeader>
         Community
       </StyledHeader>
-      <Link href="https://discord.gg/qQzctSNppQ" external>
+      <Link href="" external>
         Discord
       </Link>
-      <Link href="https://github.com/1Hive" external>
+      <Link href="" external>
         Github
       </Link>
-      <Link href="https://twitter.com/1HiveOrg" external>
+      <Link href="" external>
         Twitter
       </Link>
-      <Link href="https://t.me/honeyswapdex" external>
+      <Link href="" external>
         Telegram
       </Link>
-      <Link href="https://forum.1hive.org/" external>
+      <Link href="" external>
         Forum
       </Link>
     </div>
@@ -29,13 +29,13 @@ const Nav: React.FC = () => {
       <StyledHeader>
         Documentation
       </StyledHeader>
-      <Link href="https://1hive.gitbook.io/1hive/" external>
-        Wiki
+      <Link href="" external>
+        AC / WXDAI
       </Link>
-      <Link href="https://1hive.gitbook.io/1hive/community/security/bug-bounty" external>
+      <Link href="https://steak.adept.camp/farms/AC-WXDAI%20UNI-V2%20LP" external>
         Bug Bounty
       </Link>
-      <Link href="https://1hive.gitbook.io/1hive/guides/faq" external>
+      <Link href="" external>
         FAQs
       </Link>
     </StyledDivMargin>
