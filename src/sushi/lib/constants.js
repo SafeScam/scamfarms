@@ -55,8 +55,9 @@ export const contractAddresses = {
     100: '0xe91d153e0b41518a2ce8dd3d7944fa863463a97d',
   },
   factory: {
-   // 100: '0xE29DCD715D11455194D7d74c622F3c42C8a37040'
-      100: '0xdDf1153597F33b63c6F23c9a5dBd178f2575A638'
+   // 100: '0xE29DCD715D11455194D7d74c622F3c42C8a37040'  1hive factory
+   //   100: '0xdDf1153597F33b63c6F23c9a5dBd178f2575A638' AC v1 Factory
+        100:      '0xF04942970C98fdda8dddB54f92C25A4EA0Dc9d11'  // AC v2 factory
   }
 }
 
