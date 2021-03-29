@@ -70,7 +70,7 @@ export const contractAddresses = {
 */
 
 export const knownPools = {
-  '0x97afb99c75cfbd3fa1e6cf9f5709e1d0adb67be5': {
+  '0xf1E1B04CADC657D4B4108BBe348a2dEd433CDEB3': {
     name: 'AC / WXDAI',
     icon: <img src={creamFlower} alt="" />
   },
