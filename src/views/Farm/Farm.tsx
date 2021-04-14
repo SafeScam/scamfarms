@@ -16,6 +16,7 @@ import { getFactoryContract } from '../../sushi/utils'
 
 const Farm: React.FC = () => {
   const { farmId } = useParams()
+  console.log("FID: %s", farmId)
   const {
     lpToken,
     earnToken,
@@ -32,6 +33,7 @@ const Farm: React.FC = () => {
     poolContract: null,
     lpContract: null,
   }
+  console.log("lp: %s, earn: %s, PCon: %s, Verf: %s", lpToken, earnToken, name, poolContract, verified )
 
   useEffect(() => {
     window.scrollTo(0, 0)

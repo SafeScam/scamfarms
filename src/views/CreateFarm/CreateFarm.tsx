@@ -67,6 +67,9 @@ const CreateFarm: React.FC = () => {
   const [poolCreated, setPoolCreated] = useState(false)
   const [pendingTx, setPendingTx] = useState(false)
   const { onCreate } = useCreatePool()
+  console.log("Addr: %s, Pend: %s, pair: %s", pairAddress, pendingTx, (pairData && !pairData.pair))
+  // UniswapV2Router01 ToDo find it automatically 
+  const routerAddress = "0x3BF6aDB5F2b24A1E6A15c3CbD98f8c0d87787177"
 
   if (poolCreated) {
     return (
@@ -100,7 +103,7 @@ const CreateFarm: React.FC = () => {
           onChange={handleChange}
           value={pairAddress}
         />
-        <Spacer />
+        <Spacer/>
         <PairInformation
           data={pairData?.pair}
           hasPool={poolExists}
@@ -115,7 +118,7 @@ const CreateFarm: React.FC = () => {
           }
           onClick={async () => {
             setPendingTx(true)
-            await onCreate(pairAddress)
+            await onCreate(pairAddress, routerAddress)
             setPendingTx(false)
             setPoolCreated(true)
           }}

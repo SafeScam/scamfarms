@@ -7,6 +7,7 @@ export const GET_TOKEN_PRICE = gql`
     }
   }
 `
+export const GET_POOLS_AC = 1
 
 export const GET_POOLS = gql`
   {

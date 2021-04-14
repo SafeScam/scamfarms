@@ -82,21 +82,27 @@ const FarmCards: React.FC = () => {
   const [apy, setApy] = useState<
     {[farmId: string]: BigNumber}
   >({})
+var i = 0
   useEffect(() => {
     async function calculateApys() {
       const result: {
         [farmId: string]: BigNumber
       } = {}
+
       for (const farm of farms) {
         if (farm.rewardRate.isZero()) {
-          continue
+//            continue
         }
-
         result[farm.id] = honeyPrice
           .times(farm.rewardRate)
           .times(INTEGERS.ONE_YEAR_IN_SECONDS)
           .div(farm.staked)
           .div(await lpTokenValue(farm.lpContract))
+
+          console.log("Id: %s", farm.id, farm.lpTokenAddress)
+//          console.log("earnToken %s, earnTokenAddress %s", farm.earnToken,farm.earnTokenAddress)
+//          console.log("lpContract %s", farm.lpContract)
+//          console.log("poolContract %s, poolAddress %s", farm.poolContract, "null")
       }
       setApy(result)
     }
@@ -121,16 +127,15 @@ const FarmCards: React.FC = () => {
 
   // Hotfix until we fix APY calculation
   const endedRewardsFarms = farmsWithApy
-    .filter((farm) => farm.rewards.gt(ACTIVE_THRESHOLD))
-    .filter((farm) => !curatedActiveFarms.includes(farm.poolAddress))
+ //   .filter((farm) => farm.rewards.gt(ACTIVE_THRESHOLD))
+ //   .filter((farm) => !curatedActiveFarms.includes(farm.poolAddress))
+    .filter((farm) => farm.id === ("AC-XDAI UNI-V2 LP"))
 
   const inactiveFarms = farmsWithApy
     .filter((farm) => farm.rewards.lt(ACTIVE_THRESHOLD))
 
   return (
     <>
-      <FarmSectionHeader>There are no active farms</FarmSectionHeader>
-      <FarmSectionDescription>🍯 Currently, there are no farms that give rewards. 🍯</FarmSectionDescription>
       {/* <FarmSectionDescription>Farms that currently give rewards.</FarmSectionDescription> */}
       {/* <StyledCards>
         {!!activeFarms.length ? (
@@ -143,14 +148,11 @@ const FarmCards: React.FC = () => {
           </StyledLoadingWrapper>
         )}
       </StyledCards> */}
-      <Spacer size='md' />
-      <FarmSectionHeader>Inactive farms</FarmSectionHeader>
-      <FarmSectionDescription>
-        These are farms that have no rewards. They will only get rewards if a funding proposal for them passes.
-      </FarmSectionDescription>
-      <StyledCards>
-        {!!inactiveFarms.length ? (
-          endedRewardsFarms.concat(inactiveFarms).map((farm, i) => (
+      <Spacer size='sm' />
+      <FarmSectionHeader>Active farms</FarmSectionHeader>
+     <StyledCards>
+        {!!endedRewardsFarms.length ? (
+          endedRewardsFarms.map((farm, i) => (
             <FarmCard farm={farm} key={i} />
           ))
         ) : (
@@ -249,14 +251,20 @@ const StyledLoadingWrapper = styled.div`
   justify-content: center;
 `
 
+//const StyledCardWrapper = styled.div`
+//  display: flex;
+//  width: calc((900px - ${(props) => props.theme.spacing[4]}px * 2) / 3);
+//  margin: ${(props) => props.theme.spacing[2]}px;
+//  margin-bottom: ${(props) => props.theme.spacing[4]}px;
+//  margin-top: 0;
+//  position: relative;
+//`
+
 const StyledCardWrapper = styled.div`
-  display: flex;
-  width: calc((900px - ${(props) => props.theme.spacing[4]}px * 2) / 3);
-  margin: ${(props) => props.theme.spacing[2]}px;
-  margin-bottom: ${(props) => props.theme.spacing[4]}px;
-  margin-top: 0;
-  position: relative;
-`
+  margin: auto;
+//  width: 900px;
+//  padding: 10px;
+//`
 
 const StyledTitle = styled.h4`
   color: #2C3437;
