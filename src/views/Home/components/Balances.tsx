@@ -96,7 +96,7 @@ const Balances: React.FC = () => {
         <Footnote>
           Pending harvest
           <FootnoteValue>
-            <PendingRewards /> HNY
+            <PendingRewards /> AC
           </FootnoteValue>
         </Footnote>
       </Card>
@@ -109,7 +109,7 @@ const Balances: React.FC = () => {
             <img src={HoneyIcon} alt="" />
             <Spacer />
             <div style={{ flex: 1 }}>
-              <Label text="Total Honey Supply" />
+              <Label text="Total AC Supply" />
               <Value
                 value={totalSupply ? getBalanceNumber(totalSupply) : 'Locked'}
               />
