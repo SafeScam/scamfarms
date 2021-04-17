@@ -83,7 +83,7 @@ const Balances: React.FC = () => {
                 <img src={HoneyIcon} alt=""/>
                 <Spacer />
                 <div style={{ flex: 1 }}>
-                  <Label text="Your Honey Balance" />
+                  <Label text="Your AC Balance" />
                   <Value
                     value={!!account ? getBalanceNumber(honeyBalance) : 'Locked'}
                     decimals={6}
@@ -109,7 +109,7 @@ const Balances: React.FC = () => {
             <img src={HoneyIcon} alt="" />
             <Spacer />
             <div style={{ flex: 1 }}>
-              <Label text="Total Honey Supply" />
+              <Label text="Total AC Supply" />
               <Value
                 value={totalSupply ? getBalanceNumber(totalSupply) : 'Locked'}
               />
