@@ -13,10 +13,10 @@ import Stake from './components/Stake'
 import { formatAddress } from '../../utils'
 import { lpTokenValue } from '../../utils/lpToken'
 import { getFactoryContract } from '../../sushi/utils'
+import aclogo from '../../assets/img/mmorelightlogo.png'
 
 const Farm: React.FC = () => {
-  const { farmId } = useParams()
-  console.log("FID: %s", farmId)
+  const {farmId}  = useParams()
   const {
     lpToken,
     earnToken,
@@ -33,7 +33,7 @@ const Farm: React.FC = () => {
     poolContract: null,
     lpContract: null,
   }
-  console.log("lp: %s, earn: %s, PCon: %s, Verf: %s", lpToken, earnToken, name, poolContract, verified )
+//  console.log("lp: %s, earn: %s, PCon: %s, Icon: %s", lpToken, earnToken, name, poolContract, icon )
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -90,7 +90,7 @@ const Farm: React.FC = () => {
     <>
       <PageHeader
         circle
-        icon={icon}
+        icon={<img src="../../assets/img/mmorelightlogo.png" height="190" alt="" />}
         subtitle={`Deposit ${lpTokenName}  Tokens and earn ${earnTokenName}`}
         title={name}
       />

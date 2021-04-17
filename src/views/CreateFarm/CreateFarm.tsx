@@ -75,7 +75,7 @@ const CreateFarm: React.FC = () => {
     return (
       <>
         <PageHeader
-          icon={<img src={aclogo} height="95" alt="" />}
+          icon={<img src={aclogo} height="190" alt="" />}
           subtitle="The farm has been created. It might take a little while until it shows up on Honeycomb."
           title="Farm Created"
         />
@@ -86,7 +86,7 @@ const CreateFarm: React.FC = () => {
   return (
     <>
       <PageHeader
-        icon={<img src={aclogo} height="95" alt="" />}
+        icon={<img src={aclogo} height="190" alt="" />}
         subtitle="Create a new farm for a Honeyswap pair"
         title="Create Farm"
       />

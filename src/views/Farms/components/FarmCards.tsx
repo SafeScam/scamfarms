@@ -20,9 +20,9 @@ interface FarmWithApy extends Farm {
   poolAddress?: string
 }
 
-const curatedActiveFarms = [
+//const curatedActiveFarms = [
   // EMPTY
-  "no farms are funded atm",
+//  "no farms are funded atm",
   // HNY-LINK 
   // "0x90d029ddbf3fb4662eceefb7f31d052f4e07856e",
   // WETH-WBTC
@@ -63,7 +63,7 @@ const curatedActiveFarms = [
   // "0x21766e9bfc48271abb85c5ede57675c908d7c9e9",
   // // renZEC-XDAI
   // "0x3f283c53c1679d69916d70d79cd3fe6ab7c3e180",
-]
+//]
 
 const FarmCards: React.FC = () => {
   const farms = useFarms()
@@ -82,7 +82,7 @@ const FarmCards: React.FC = () => {
   const [apy, setApy] = useState<
     {[farmId: string]: BigNumber}
   >({})
-var i = 0
+
   useEffect(() => {
     async function calculateApys() {
       const result: {
@@ -131,8 +131,8 @@ var i = 0
  //   .filter((farm) => !curatedActiveFarms.includes(farm.poolAddress))
     .filter((farm) => farm.id === ("AC-XDAI UNI-V2 LP"))
 
-  const inactiveFarms = farmsWithApy
-    .filter((farm) => farm.rewards.lt(ACTIVE_THRESHOLD))
+  //const inactiveFarms = farmsWithApy
+  //  .filter((farm) => farm.rewards.lt(ACTIVE_THRESHOLD))
 
   return (
     <>
@@ -226,9 +226,9 @@ const FarmSectionHeader = styled.h1`
   padding: 0;
 `
 
-const FarmSectionDescription = styled.p`
-  color: #2C3437;
-`
+//const FarmSectionDescription = styled.p`
+//  color: #2C3437;
+//`
 
 const StyledCards = styled.div`
   width: 900px;
