@@ -28,12 +28,12 @@ const Harvest: React.FC<HarvestProps> = ({ poolContract }) => {
           <StyledCardHeader>
             <CardIcon><img src={HoneyIcon} height="54px" alt="" /></CardIcon>
             <Value value={getBalanceNumber(earnings)} decimals={6} />
-            <Label text="HNY Earned" />
+            <Label text="AC Earned" />
           </StyledCardHeader>
           <StyledCardActions>
             <Button
               disabled={!earnings.toNumber() || pendingTx}
-              text={pendingTx ? 'Collecting HNY' : 'Harvest'}
+              text={pendingTx ? 'Collecting AC' : 'Harvest'}
               onClick={async () => {
                 setPendingTx(true)
                 await onReward()
