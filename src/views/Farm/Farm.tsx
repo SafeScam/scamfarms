@@ -91,9 +91,7 @@ const Farm: React.FC = () => {
       <PageHeader
         circle
         icon={<img src="../../assets/img/mmorelightlogo.png" height="190" alt="" />}
-        subtitle={`Deposit ${lpTokenName}  Tokens to earn ${earnTokenName} <a href={`https://info.honeyswap.org/pair/0x3f64689678c80fc395626ef8d86c3230eca561bf`}>
-             Add AC/WXDAI Liquidity Here
-            </a>`}
+        subtitle={`Deposit ${lpTokenName}  Tokens to earn ${earnTokenName}
         title={name}
         
          
