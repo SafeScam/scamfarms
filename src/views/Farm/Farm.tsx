@@ -93,8 +93,9 @@ const Farm: React.FC = () => {
         icon={<img src="../../assets/img/mmorelightlogo.png" height="190" alt="" />}
         subtitle={`Deposit ${lpTokenName}  Tokens and earn ${earnTokenName}`}
         title={name}
+          <center><a href="https://info.honeyswap.org/pair/0x3f64689678c80fc395626ef8d86c3230eca561bf">Add AC/WXDAI Liquidity Here</a></center>
       />
-                                          <center><a href="https://info.honeyswap.org/pair/0x3f64689678c80fc395626ef8d86c3230eca561bf">Add AC/WXDAI Liquidity Here</a></center>
+                                        
       {!verified && <React.Fragment>
         <StakeDisclaimer>
           The tokens for this farm are not in the default Honeyswap token list.
