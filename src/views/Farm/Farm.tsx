@@ -96,9 +96,7 @@ const Farm: React.FC = () => {
         
          
       />
- <Link href="https://info.honeyswap.org/pair/0x3f64689678c80fc395626ef8d86c3230eca561bf" external>
-        AC / WXDAI Pair
-      </Link>                                       
+                                      
       {!verified && <React.Fragment>
         <StakeDisclaimer>
           The tokens for this farm are not in the default Honeyswap token list.
