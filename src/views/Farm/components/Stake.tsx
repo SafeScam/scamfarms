@@ -20,7 +20,7 @@ import { getBalanceNumber } from '../../../utils/formatBalance'
 import DepositModal from './DepositModal'
 import WithdrawModal from './WithdrawModal'
 import BeeIcon from '../../../assets/img/bee.svg'
-import aclogo from '../../assets/img/mmorelightlogo.png'
+import aclogo from '../../../assets/img/mmorelightlogo.png'
 
 interface StakeProps {
   lpContract: Contract
