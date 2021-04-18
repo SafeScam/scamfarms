@@ -91,7 +91,7 @@ const Farm: React.FC = () => {
       <PageHeader
         circle
         icon={<img src="../../assets/img/mmorelightlogo.png" height="190" alt="" />}
-        subtitle={`Deposit ${lpTokenName}  Tokens to earn ${earnTokenName}
+        subtitle={`Deposit ${lpTokenName}  Tokens to earn ${earnTokenName}`}
         title={name}
         
          
