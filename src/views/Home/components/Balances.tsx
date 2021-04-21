@@ -66,7 +66,7 @@ const Balances: React.FC = () => {
   useEffect(() => {
     async function fetchTotalSupply() {
 //      const supply = await getSushiSupply(honey)
-      const supply = new BigNumber(108000000000)
+      const supply = new BigNumber(97238562)
 //      totalSupply = supply
       setTotalSupply(supply)
     }
@@ -115,7 +115,7 @@ const Balances: React.FC = () => {
               <Label text="Total AC Supply" />
               <Value
 //                value={totalSupply ? getBalanceNumber(totalSupply) : 'Locked'}
-                value={!!account ? '108,000,000,000' : 'Locked'}
+                value={!!account ? '97,238,562.00' : 'Locked'}
               />
             </div>
           </StyledRow>
