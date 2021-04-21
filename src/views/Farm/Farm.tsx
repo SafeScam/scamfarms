@@ -91,9 +91,12 @@ const Farm: React.FC = () => {
       <PageHeader
         circle
         icon={<img src="../../assets/img/mmorelightlogo.png" height="190" alt="" />}
-        subtitle={`Deposit ${lpTokenName}  Tokens and earn ${earnTokenName}`}
+        subtitle={`Deposit ${lpTokenName}  Tokens to earn ${earnTokenName}`}
         title={name}
+        
+         
       />
+                                      
       {!verified && <React.Fragment>
         <StakeDisclaimer>
           The tokens for this farm are not in the default Honeyswap token list.
