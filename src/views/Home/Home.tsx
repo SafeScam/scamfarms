@@ -16,18 +16,20 @@ const Home: React.FC = () => {
         subtitle="Stake AC/WXDAI LP tokens to earn AC"
       />
 
-      <Container>
-        <Balances />
-      </Container>
-      <Spacer size="lg" />
-      <Spacer size="lg" />
       <div
         style={{
           margin: '0 auto',
         }}
       >
-        <Button text="Back to Honeyswap" href="https://app.honeyswap.org/#/swap" variant="default" />
+        <Button text="Graph" href="https://info.honeyswap.org/pair/0x3f64689678c80fc395626ef8d86c3230eca561bf" variant="default" />
+        <Spacer size="sm" />
+        <Button text="Provide Liquidity on Honeyswap" href="https://app.honeyswap.org/#/swap" variant="default" />
       </div>
+      <Spacer size="md" />
+
+      <Container>
+        <Balances />
+      </Container>
     </Page>
   )
 }

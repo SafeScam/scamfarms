@@ -13,7 +13,7 @@ const Nav: React.FC = () => {
         Discord
       </Link>
       <Link href="" external>
-        Github
+        Graph
       </Link>
       <Link href="" external>
         Twitter
@@ -29,11 +29,11 @@ const Nav: React.FC = () => {
       <StyledHeader>
         Documentation
       </StyledHeader>
-      <Link href="https://info.honeyswap.org/pair/0x3f64689678c80fc395626ef8d86c3230eca561bf" external>
-        AC / WXDAI Pair
+      <Link href="https://discord.gg/rumPNKak" external>
+        AC Alley Codes
       </Link>
-      <Link href="https://steak.adept.camp/farms/AC-WXDAI%20UNI-V2%20LP" external>
-      AC / WXDAI Farm
+      <Link href="https://info.honeyswap.org/pair/0x3f64689678c80fc395626ef8d86c3230eca561bf" external>
+      AC / WXDAI Graph
       </Link>
       <Link href="" external>
         FAQs

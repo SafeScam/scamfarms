@@ -196,12 +196,14 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm }) => {
                       .toLocaleString('en-US')
                       .slice(0, -1)}%`
                   : '-'}
+                |   
               </span>
               <span>
                 {farm.rewards
                   ? (farm.rewards.toNumber() || 0).toLocaleString('en-US')
                   : '-'}{' '}
                 {farm.earnToken}
+                |
               </span>
               <span>
                 {farm.staked
