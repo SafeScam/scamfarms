@@ -115,7 +115,7 @@ const Balances: React.FC = () => {
               <Label text="Total AC Supply" />
               <Value
 //                value={totalSupply ? getBalanceNumber(totalSupply) : 'Locked'}
-                value={!!account ? '97,238,562.00' : 'Locked'}
+                value={!!account ? '95,396,271.00' : 'Locked'}
               />
             </div>
           </StyledRow>
