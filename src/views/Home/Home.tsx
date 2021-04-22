@@ -21,9 +21,9 @@ const Home: React.FC = () => {
           margin: '0 auto',
         }}
       >
-        <Button text="Graph" href="https://info.honeyswap.org/pair/0x3f64689678c80fc395626ef8d86c3230eca561bf" variant="default" />
+        <Button text="Chart & Trade" href="https://info.honeyswap.org/pair/0x3f64689678c80fc395626ef8d86c3230eca561bf" variant="default" />
         <Spacer size="sm" />
-        <Button text="Provide Liquidity on Honeyswap" href="https://app.honeyswap.org/#/swap" variant="default" />
+        <Button text="Provide Liquidity on Honeyswap" href="https://app.honeyswap.org/#/add/0x5f1f81de1d21b97a5d0d5d62d89bde9ddec27325/0xe91d153e0b41518a2ce8dd3d7944fa863463a97d" variant="default" />
       </div>
       <Spacer size="md" />
 
