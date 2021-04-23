@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import aclogo from '../../assets/img/mmorelightlogo.png'
+import aclogo from '../../assets/img/scamLogo.jpg'
 
 const Logo: React.FC = () => {
   return (
     <StyledLogo to="/">
       <img src={aclogo} alt="Adept Camp" height="64" style={{ marginTop: -4 }} />
       <StyledText>
-        Adept Camp
+      Simple Cool Automatic Money
       </StyledText>
     </StyledLogo>
   )
