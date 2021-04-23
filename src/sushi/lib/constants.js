@@ -52,7 +52,7 @@ export const contractAddresses = {
   
   },
   weth: {
-    100: '0xe91d153e0b41518a2ce8dd3d7944fa863463a97d',
+    100: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', // this is wbnb might need to change?
   },
   factory: {
    // 100: '0xE29DCD715D11455194D7d74c622F3c42C8a37040'  1hive factory
