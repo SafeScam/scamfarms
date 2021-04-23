@@ -29,10 +29,10 @@ const Nav: React.FC = () => {
       <StyledHeader>
         Documentation
       </StyledHeader>
-      <Link href="https://discord.gg/rumPNKak" external>
-        AC Alley Codes
+      <Link href="https://discord.gg/euMJeYc8" external>
+        SCAM SHACK DISCORD
       </Link>
-      <Link href="https://info.honeyswap.org/pair/0x3f64689678c80fc395626ef8d86c3230eca561bf" external>
+      <Link href="" external>
       AC / WXDAI Graph
       </Link>
       <Link href="" external>

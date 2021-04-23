@@ -4,7 +4,7 @@ import { GU } from '@1hive/1hive-ui'
 
 import Container from '../Container'
 import Nav from './components/Nav'
-import aclogo from '../../assets/img/mmorelightlogo.png'
+import ID from '../../assets/img/ID.png'
 
 const Footer: React.FC = () => {
   return (
@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
           <StyledFooter>
             <StyledFooterInner>
               <StyledLogo>
-                <img src={aclogo} height="80" alt="" />
+                <img src={ID} height="80" alt="" />
               </StyledLogo>
               <Nav />
             </StyledFooterInner>
