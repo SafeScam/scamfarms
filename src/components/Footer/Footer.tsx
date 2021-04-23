@@ -36,7 +36,7 @@ const StyleInnerWrap = styled.div`
 `
 const StyledLogo = styled.div`
   margin-top: 30px;
-  margin-right: 100px;
+  margin-right: 10px;
   width: ${20 * GU}px;
   align-items: center;
 `
