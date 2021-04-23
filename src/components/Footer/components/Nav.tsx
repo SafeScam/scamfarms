@@ -9,19 +9,19 @@ const Nav: React.FC = () => {
       <StyledHeader>
         Community
       </StyledHeader>
-      <Link href="" external>
+      <Link href="https://discord.gg/7nYgSTu5TY" external>
         Discord
       </Link>
       <Link href="" external>
         Graph
       </Link>
-      <Link href="" external>
+      <Link href="https://twitter.com/SafeSCAMFinance" external>
         Twitter
       </Link>
-      <Link href="" external>
+      <Link href="https://t.me/scambsc" external>
         Telegram
       </Link>
-      <Link href="" external>
+      <Link href="#" external>
         Forum
       </Link>
     </div>
