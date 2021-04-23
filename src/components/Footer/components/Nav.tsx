@@ -32,8 +32,8 @@ const Nav: React.FC = () => {
       <Link href="https://discord.gg/euMJeYc8" external>
         SCAM SHACK DISCORD
       </Link>
-      <Link href="" external>
-      AC / WXDAI Graph
+      <Link href="#" external>
+      SCAM Pool
       </Link>
       <Link href="" external>
         FAQs
