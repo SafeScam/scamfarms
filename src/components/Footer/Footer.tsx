@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
           <StyledFooter>
             <StyledFooterInner>
               <StyledLogo>
-                <img src={ID} height="80" alt="" />
+                <img src={ID} height="400" alt="" />
               </StyledLogo>
               <Nav />
             </StyledFooterInner>
