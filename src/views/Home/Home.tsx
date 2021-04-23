@@ -12,7 +12,7 @@ const Home: React.FC = () => {
     <Page>
       <PageHeader
         icon={<img src={aclogo} height={190} alt="ac logo" />}
-        title="Our Dev Can't Rug"
+        title=""
         subtitle="Stake SCAM/BNB LP tokens to earn SCAM"
       />
 
