@@ -112,7 +112,7 @@ const Balances: React.FC = () => {
             <img src={HoneyIcon} alt="" />
             <Spacer />
             <div style={{ flex: 1 }}>
-              <Label text="Total AC Supply" />
+              <Label text="Total SCAM Supply" />
               <Value
 //                value={totalSupply ? getBalanceNumber(totalSupply) : 'Locked'}
                 value={!!account ? '95,396,271.00' : 'Locked'}
