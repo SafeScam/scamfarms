@@ -13,10 +13,11 @@ const Footer: React.FC = () => {
         <Container size="lg">
           <StyledFooter>
             <StyledFooterInner>
+              
+              <Nav />
               <StyledLogo>
                 <img src={ID} height="400" alt="" />
               </StyledLogo>
-              <Nav />
             </StyledFooterInner>
           </StyledFooter>
         </Container>
