@@ -8,7 +8,7 @@ import CardContent from '../../../components/CardContent'
 import Label from '../../../components/Label'
 import Spacer from '../../../components/Spacer'
 import Value from '../../../components/Value'
-import HoneyIcon from '../../../assets/img/honey.svg'
+import HoneyIcon from '../../../assets/img/scamLogo.jpg'
 import useAllEarnings from '../../../hooks/useAllEarnings'
 import useTokenBalance from '../../../hooks/useTokenBalance'
 import useHoney from '../../../hooks/useSushi'
@@ -86,7 +86,7 @@ const Balances: React.FC = () => {
                 <img src={HoneyIcon} alt=""/>
                 <Spacer />
                 <div style={{ flex: 1 }}>
-                  <Label text="Your AC Balance" />
+                  <Label text="Your SCAM Balance" />
                   <Value
                     value={!!account ? getBalanceNumber(honeyBalance) : 'Locked'}
                     decimals={6}
