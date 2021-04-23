@@ -83,7 +83,7 @@ const Balances: React.FC = () => {
           <StyledBalances>
             <StyledBalance>
               <StyledRow>
-                <img src={HoneyIcon} alt=""/>
+                
                 <Spacer />
                 <div style={{ flex: 1 }}>
                   <Label text="Your SCAM Balance" />
@@ -109,7 +109,7 @@ const Balances: React.FC = () => {
         <CardContent>
           <StyledBalance>
           <StyledRow>
-            <img src={HoneyIcon} alt="" />
+           
             <Spacer />
             <div style={{ flex: 1 }}>
               <Label text="Total SCAM Supply" />
