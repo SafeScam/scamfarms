@@ -2,7 +2,7 @@ import React from 'react'
 import { Route, Switch, useRouteMatch } from 'react-router-dom'
 import { useWallet } from 'use-wallet'
 
-import aclogo from '../../assets/img/mmorelightlogo.png'
+import aclogo from '../../assets/img/scamLogo.png'
 
 import Button from '../../components/Button'
 import Page from '../../components/Page'

@@ -1,5 +1,5 @@
 import React from 'react'
-import aclogo from '../../assets/img/scamLogo.jpg'
+import aclogo from '../../assets/img/scamLogo.png'
 import Button from '../../components/Button'
 import Container from '../../components/Container'
 import Page from '../../components/Page'

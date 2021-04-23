@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import aclogo from '../../assets/img/scamLogo.jpg'
+import aclogo from '../../assets/img/scamLogo.png'
 
 const Logo: React.FC = () => {
   return (

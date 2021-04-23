@@ -11,7 +11,7 @@ import useEarnings from '../../../hooks/useEarnings'
 import useReward from '../../../hooks/useReward'
 import { getBalanceNumber } from '../../../utils/formatBalance'
 import HoneyIcon from '../../../assets/img/honey.svg'
-import aclogo from '../../../assets/img/scamLogo.jpg'
+import aclogo from '../../../assets/img/scamLogo.png'
 
 interface HarvestProps {
   poolContract: Contract
