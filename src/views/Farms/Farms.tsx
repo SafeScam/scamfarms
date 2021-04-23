@@ -28,8 +28,8 @@ const Farms: React.FC = () => {
             <Route exact path={path}>
               <PageHeader
                 icon={<img src={aclogo} height="190" alt="" />}
-                subtitle="Earn AC tokens by staking AC/WXDAI V2 LP Tokens."
-                title="Adept Camp Project Farms"
+                subtitle="Earn SCAM tokens by staking SCAM/BNB Pancake LP Tokens."
+                title="SCAM  Farms"
               />
               <FarmCards />
             </Route>
